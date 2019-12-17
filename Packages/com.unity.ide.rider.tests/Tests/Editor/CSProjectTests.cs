@@ -81,7 +81,7 @@ namespace Packages.Rider.Editor.Tests
                     "<?xml version=\"1.0\" encoding=\"utf-8\"?>",
                     "<Project ToolsVersion=\"4.0\" DefaultTargets=\"Build\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">",
                     "  <PropertyGroup>",
-                    "    <LangVersion>latest</LangVersion>",
+                    "    <LangVersion>7.3</LangVersion>",
                     "    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>",
                     "    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>",
                     "    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>",
@@ -669,7 +669,7 @@ namespace Packages.Rider.Editor.Tests
             [Test]
             public void CheckDefaultLangVersion()
             {
-                CheckOtherArgument(new string[0], "<LangVersion>latest</LangVersion>");
+                CheckOtherArgument(new string[0], "<LangVersion>7.3</LangVersion>");
             }
 
             public void CheckOtherArgument(string[] argumentString, params string[] expectedContents)

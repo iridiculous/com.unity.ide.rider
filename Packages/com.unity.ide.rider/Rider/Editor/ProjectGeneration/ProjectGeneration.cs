@@ -208,7 +208,7 @@ namespace Packages.Rider.Editor
     const string k_ProductVersion = "10.0.20506";
     const string k_BaseDirectory = ".";
     const string k_TargetFrameworkVersion = "v4.7.1";
-    const string k_TargetLanguageVersion = "latest";
+    const string k_TargetLanguageVersion = "7.3";
 
     IAssemblyNameProvider IGenerator.AssemblyNameProvider => m_AssemblyNameProvider;
 
